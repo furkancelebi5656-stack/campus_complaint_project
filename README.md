@@ -20,3 +20,4 @@ python manage.py runserver
 - STUDENT: Şikayet oluşturur ve kendi şikayetlerini takip eder.
 - STAFF: Kendisine atanan şikayetleri görüntüler ve durum günceller.
 - ADMIN: Tüm kayıtları yönetir, personele atama yapar ve raporları görür.
+Guncelleme Notu
