@@ -21,3 +21,20 @@ python manage.py runserver
 - STAFF: Kendisine atanan şikayetleri görüntüler ve durum günceller.
 - ADMIN: Tüm kayıtları yönetir, personele atama yapar ve raporları görür.
 Guncelleme Notu
+## Özellikler
+
+- Şikayet oluşturma
+- Şikayet listeleme
+- Personel atama
+- Durum güncelleme
+- Yönetici raporlama ekranı
+
+## Teknolojiler
+
+- Python
+- Django
+- SQLite
+
+## Güncelleme Notu
+
+README dosyası güncellenmiştir.
