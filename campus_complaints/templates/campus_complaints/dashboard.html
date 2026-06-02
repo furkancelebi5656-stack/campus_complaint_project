@@ -1,0 +1,8 @@
+<h1>Kontrol Paneli</h1>
+<a href="{% url 'create_complaint' %}">Yeni Şikayet</a>
+<table border="1">
+<tr><th>Başlık</th><th>Kategori</th><th>Durum</th><th>Öncelik</th></tr>
+{% for c in complaints %}
+<tr><td>{{ c.title }}</td><td>{{ c.category }}</td><td>{{ c.get_status_display }}</td><td>{{ c.get_priority_display }}</td></tr>
+{% empty %}<tr><td colspan="4">Kayıt yok.</td></tr>{% endfor %}
+</table>
